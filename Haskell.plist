@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Haskell</string>
+	<key>BBLMLanguageCode</key>
+	<string>Hask</string>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.hs</string>
+		</dict>
+	</array>
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+	<key>BBLMCanSpellCheckCodeRuns</key>
+	<false/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>module</string>
+		<string>import</string>
+		<string>qualified</string>
+		<string>where</string>
+		<string>class</string>
+		<string>instance</string>
+		<string>type</string>
+		<string>newtype</string>
+		<string>data</string>
+		<string>do</string>
+		<string>case</string>
+		<string>of</string>
+		<string>let</string>
+		<string>in</string>
+		<string>if</string>
+		<string>then</string>
+		<string>else</string>
+	</array>
+	<key>BBLMCommentLineDefault</key>
+	<string>-- </string>
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>a-zA-Z0-9_'</string>
+
+		<key>Comment Pattern</key>
+		<string><![CDATA[(?x:
+			(?>	-- [^\r\n]* )
+			|
+			(?P<block>
+				\{- (	(?> [^-\{\}]+ )
+					|	\{ (?!-)
+					|	- (?!\})
+					|	(?<!-) \}
+					| (?P>block)
+					)*
+				-\}
+			)
+		)]]></string>
+
+		<key>String Pattern</key>
+		<string><![CDATA[(?x:
+			(?<!\\) ('(\\.|.)')
+		|	(?<!\\) ("(?>(\\.|[^"])*)")
+		)]]></string>
+
+		<key>Function Pattern</key>
+		<string><![CDATA[(?x:
+			(?P<function>
+				^
+				(?P<function_name>
+					(?! type | newtype | data )
+					[a-z_] [a-zA-Z0-9_']* )
+				(?> [^=\r\n]* ) =
+			)
+		)]]></string>
+
+		<key>Skip Pattern</key>
+		<string><![CDATA[(?x:
+			(?P>string) | (?P>comment)
+		)]]></string>
+	</dict>
+</dict>
+</plist>

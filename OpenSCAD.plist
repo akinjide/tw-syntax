@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBLMCommentLineDefault</key>
+	<string>//</string>
+	<key>BBLMCommentPrefixDefault</key>
+	<string>/*</string>
+	<key>BBLMCommentSuffixDefault</key>
+	<string>*/</string>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>OpenSCAD</string>
+	<key>BBLMLanguageCode</key>
+	<string>scad</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>cube</string>
+		<string>cylinder</string>
+		<string>square</string>
+		<string>circle</string>
+		<string>sphere</string>
+		<string>polyhedron</string>
+		<string>polygon</string>
+		<string>import_stl</string>
+		<string>translate</string>
+		<string>rotate</string>
+		<string>scale</string>
+		<string>mirror</string>
+		<string>hull</string>
+		<string>multimatrix</string>
+		<string>color</string>
+		<string>minkowski</string>
+		<string>$fn</string>
+		<string>$fs</string>
+		<string>$fa</string>
+		<string>linear_extrude</string>
+		<string>rotate_extrude</string>
+		<string>difference</string>
+		<string>union</string>
+		<string>intersection</string>
+		<string>render</string>
+		<string>include</string>
+		<string>use</string>
+		<string>projection</string>
+	</array>
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		<string>if</string>
+		<string>else</string>
+		<string>for</string>
+		<string>abs</string>
+		<string>acos</string>
+		<string>asin</string>
+		<string>atan</string>
+		<string>atan2</string>
+		<string>ceil</string>
+		<string>cos</string>
+		<string>exp</string>
+		<string>floor</string>
+		<string>ln</string>
+		<string>log</string>
+		<string>lookup</string>
+		<string>sqrt</string>
+		<string>tan</string>
+		<string>sin</string>
+		<string>sign</string>
+		<string>round</string>
+		<string>rands</string>
+		<string>pow</string>
+		<string>min</string>
+		<string>convexity</string>
+		<string>max</string>
+		<string>twist</string>
+		<string>slices</string>
+		<string>str</string>
+		<string>origin</string>
+		<string>height</string>
+		<string>center</string>
+	</array>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.scad</string>
+		</dict>
+	</array>
+	<key>Language Features</key>
+	<dict>
+		<key>Open Statement Blocks</key>
+		<string>{</string>
+		<key>Close Statement Blocks</key>
+		<string>}</string>
+
+		<key>Open Line Comments</key>
+		<string>//</string>
+		<key>Open Block Comments</key>
+		<string>/*</string>
+		<key>Close Block Comments</key>
+		<string>*/</string>
+		<key>Open Strings 1</key>
+		<string>'</string>
+		<key>Open Strings 2</key>
+		<string>"</string>
+		<key>Close Strings 1</key>
+		<string>'</string>
+		<key>Close Strings 2</key>
+		<string>"</string>
+		<key>Identifier and Keyword Character Class</key>
+		<string>A-Za-z0-9_\?!</string>
+
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	
+	<key>BBLMIsCaseSensitive</key>
+	<false/>
+	
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>&gt;&gt;</string>
+		<string>&gt;</string>
+		<string>&lt;&lt;</string>
+		<string>&lt;&lt;</string>
+		<string>|</string>
+		<string>:=</string>
+		<string>!</string>
+		<string>!=</string>
+		<string>%</string>
+		<string>&amp;</string>
+		<string>*</string>
+		<string>+</string>
+		<string>-</string>
+		<string>/</string>
+		<string>//</string>
+		<string>_CLKFREQ </string>
+		<string>_CLKMODE</string>
+		<string>_FREE</string>
+		<string>_STACK</string>
+		<string>_XINFREQ</string>
+		<string>ABORT</string>
+		<string>ABS</string>
+		<string>ABSNEG</string>
+		<string>ADD</string>
+		<string>ADDABS</string>
+		<string>ADDS</string>
+		<string>ADDSX</string>
+		<string>ADDX</string>
+		<string>AND</string>
+		<string>ANDN</string>
+		<string>BYTE</string>
+		<string>BYTEFILL</string>
+		<string>BYTEMOVE</string>
+		<string>CALL</string>
+		<string>CASE</string>
+		<string>CHIPVER</string>
+		<string>CLKFREQ</string>
+		<string>CLKMODE</string>
+		<string>CLKSET</string>
+		<string>CMP</string>
+		<string>CMPS</string>
+		<string>CMPSUB</string>
+		<string>CMPSX</string>
+		<string>CMPX</string>
+		<string>CNT</string>
+		<string>COGID</string>
+		<string>COGINIT</string>
+		<string>COGNEW</string>
+		<string>COGSTOP</string>
+		<string>CON</string>
+		<string>CONSTANT</string>
+		<string>CTRA</string>
+		<string>CTRB</string>
+		<string>DAT</string>
+		<string>DIRA</string>
+		<string>DIRB</string>
+		<string>DJNZ</string>
+		<string>ELSE</string>
+		<string>ELSEIF</string>
+		<string>ELSEIFNOT</string>
+		<string>ENC</string>
+		<string>FALSE</string>
+		<string>FILE</string>
+		<string>FIT</string>
+		<string>FLOAT</string>
+		<string>FROM</string>
+		<string>FRQA</string>
+		<string>FRQB</string>
+		<string>HUBOP</string>
+		<string>IF</string>
+		<string>IFNOT</string>
+		<string>IF_A</string>
+		<string>IF_AE</string>
+		<string>IF_ALWAYS</string>
+		<string>IF_B</string>
+		<string>IF_BE</string>
+		<string>IF_C</string>
+		<string>IF_C_AND_NZ</string>
+		<string>IF_C_AND_Z</string>
+		<string>IF_C_EQ_Z</string>
+		<string>IF_C_NE_Z</string>
+		<string>IF_C_OR_NZ</string>
+		<string>IF_C_OR_Z</string>
+		<string>IF_E</string>
+		<string>IF_NC</string>
+		<string>IF_NC_AND_NZ</string>
+		<string>IF_NC_AND_Z</string>
+		<string>IF_NC_OR_NZ</string>
+		<string>IF_NC_OR_Z</string>
+		<string>IF_NE</string>
+		<string>IF_NEVER</string>
+		<string>IF_NZ</string>
+		<string>IF_NZ_AND_C</string>
+		<string>IF_NZ_AND_NC</string>
+		<string>IF_NZ_OR_C</string>
+		<string>IF_NZ_OR_NC</string>
+		<string>IF_Z</string>
+		<string>IF_Z_AND_C</string>
+		<string>IF_Z_AND_NC</string>
+		<string>IF_Z_EQ_C</string>
+		<string>IF_Z_NE_C</string>
+		<string>IF_Z_OR_C</string>
+		<string>IF_Z_OR_NC</string>
+		<string>INA</string>
+		<string>INB</string>
+		<string>JMP</string>
+		<string>JMPRET</string>
+		<string>LOCKCLR</string>
+		<string>LOCKNEW</string>
+		<string>LOCKRET</string>
+		<string>LOCKSET</string>
+		<string>LONG</string>
+		<string>LONGFILL</string>
+		<string>LONGMOVE</string>
+		<string>LOOKDOWN</string>
+		<string>LOOKDOWNZ</string>
+		<string>LOOKUP</string>
+		<string>LOOKUPZ</string>
+		<string>MAX</string>
+		<string>MAXS</string>
+		<string>MIN</string>
+		<string>MINS</string>
+		<string>MOV</string>
+		<string>MOVD</string>
+		<string>MOVI</string>
+		<string>MOVS</string>
+		<string>MUL</string>
+		<string>MULS</string>
+		<string>MUXC</string>
+		<string>MUXNC</string>
+		<string>MUXNZ</string>
+		<string>MUXZ</string>
+		<string>NEG</string>
+		<string>NEGC</string>
+		<string>NEGNC</string>
+		<string>NEGNZ</string>
+		<string>NEGX</string>
+		<string>NEGZ</string>
+		<string>NEXT</string>
+		<string>NOP</string>
+		<string>NOT</string>
+		<string>NR</string>
+		<string>OBJ</string>
+		<string>ONES</string>
+		<string>OR</string>
+		<string>ORG</string>
+		<string>OTHER</string>
+		<string>OUTA</string>
+		<string>OUTB</string>
+		<string>PAR</string>
+		<string>PHSA</string>
+		<string>PHSB</string>
+		<string>PI</string>
+		<string>PLL1X</string>
+		<string>PLL2X</string>
+		<string>PLL4X </string>
+		<string>PLL8X</string>
+		<string>PLL16X</string>
+		<string>POSX</string>
+		<string>PRI</string>
+		<string>PUB</string>
+		<string>QUIT</string>
+		<string>RCFAST</string>
+		<string>RCL</string>
+		<string>RCR</string>
+		<string>RCSLOW</string>
+		<string>RDBYTE</string>
+		<string>RDLONG</string>
+		<string>RDWORD</string>
+		<string>REBOOT</string>
+		<string>REPEAT</string>
+		<string>RES</string>
+		<string>RESULT</string>
+		<string>RET</string>
+		<string>RETURN</string>
+		<string>REV</string>
+		<string>ROL</string>
+		<string>ROR</string>
+		<string>ROUND</string>
+		<string>SAR</string>
+		<string>SHL</string>
+		<string>SHR</string>
+		<string>SPR</string>
+		<string>STEP</string>
+		<string>STRCOMP</string>
+		<string>STRING</string>
+		<string>STRSIZE</string>
+		<string>SUB</string>
+		<string>SUBABS</string>
+		<string>SUBS</string>
+		<string>SUBSX  </string>
+		<string>SUBX</string>
+		<string>SUMC</string>
+		<string>SUMNC</string>
+		<string>SUMNZ</string>
+		<string>SUMZ</string>
+		<string>TEST</string>
+		<string>TJNZ</string>
+		<string>TJZ</string>
+		<string>TO</string>
+		<string>TRUE</string>
+		<string>TRUNC</string>
+		<string>UNTIL</string>
+		<string>VAR</string>
+		<string>VCFG</string>
+		<string>VSCL</string>
+		<string>WAITCNT</string>
+		<string>WAITPEQ</string>
+		<string>WAITPNE</string>
+		<string>WAITVID</string>
+		<string>WC</string>
+		<string>WHILE</string>
+		<string>WORD</string>
+		<string>WORDFILL</string>
+		<string>WORDMOVE</string>
+		<string>WR</string>
+		<string>WRBYTE</string>
+		<string>WRLONG</string>
+		<string>WRWORD</string>
+		<string>WZ</string>
+		<string>XINPUT</string>
+		<string>XOR</string>
+		<string>XTAL1</string>
+		<string>XTAL2</string>
+		<string>XTAL3</string>
+	</array>
+	
+	<key>BBLMLanguageCode</key>
+	<string>spin</string>
+	
+	<key>BBLMLanguageDisplayName</key>
+	<string>Propeller SPIN</string>
+	
+	<key>BBLMScansFunctions</key>
+	<true/>
+	
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.spin</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.SPIN</string>
+		</dict>
+	</array>
+	
+	<key>Language Features</key>
+	<dict>
+		<key>Close Block Comments</key>
+		<string>}</string>
+		
+		<key>Close Parameter Lists</key>
+		<string>)</string>
+		
+		<key>Close Statement Blocks</key>
+		<string></string>
+		
+		<key>Close Strings 1</key>
+		<string>"</string>
+		
+		<key>Close Strings 2</key>
+		<string></string>
+		
+		<key>End-of-line Ends Strings 1</key>
+		<true/>
+		
+		<key>End-of-line Ends Strings 2</key>
+		<true/>
+		
+		<key>Escape Char in Strings 1</key>
+		<string></string>
+		
+		<key>Escape Char in Strings 2</key>
+		<string></string>
+		
+		<key>Identifier and Keyword Characters</key>
+		<string>_0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz</string>
+		
+		<key>Open Block Comments</key>
+		<string>{</string>
+		
+		<key>Open Line Comments</key>
+		<string>'</string>
+		
+		<key>Open Parameter Lists</key>
+		<string>(</string>
+		
+		<key>Open Statement Blocks</key>
+		<string></string>
+		
+		<key>Open Strings 1</key>
+		<string>"</string>
+		
+		<key>Open Strings 2</key>
+		<string></string>
+		
+		<key>Prefix for Functions</key>
+		<string>pub</string>
+		
+		<key>Prefix for Procedures</key>
+		<string>pri</string>
+		
+		<key>Terminator for Prototypes 1</key>
+		<string></string>
+		
+		<key>Terminator for Prototypes 2</key>
+		<string></string>
+	</dict>
+	
+</dict>
+</plist>

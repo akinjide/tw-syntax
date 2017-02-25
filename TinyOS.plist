@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>BBEditDocumentType</key>
+    <string>CodelessLanguageModule</string>
+    <key>BBLMColorsSyntax</key>
+    <true/>
+    <key>BBLMIsCaseSensitive</key>
+    <true/>
+    <key>BBLMKeywordList</key>
+    <array>
+        <!-- TinyOS specific keywords -->
+        <string>async</string>
+        <string>interface</string>
+        <string>norace</string>
+        <string>command</string>
+        <string>module</string>
+        <string>post</string>
+        <string>provides</string>
+        <string>components</string>
+        <string>implementation</string>
+        <string>configuration</string>
+        <string>includes</string>
+        <string>uses</string>
+        <string>call</string>
+        <string>dbg</string>
+        <string>event</string>
+        <string>task</string>
+        <string>signal</string>
+
+        <!-- TinyOS types -->
+        <string>uint8_t</string>
+        <string>uint16_t</string>
+        <string>uint32_t</string>
+        <string>bool</string>
+        <string>result_t</string>
+        <string>int32_t</string>
+        <string>int16_t</string>
+        <string>int8_t</string>
+
+        <!-- C keywords (from TextWrangler's resources) -->
+        <string>asm</string>
+        <string>auto</string>
+        <string>break</string>
+        <string>case</string>
+        <string>char</string>
+        <string>const</string>
+        <string>continue</string>
+        <string>default</string>
+        <string>do</string>
+        <string>double</string>
+        <string>else</string>
+        <string>enum</string>
+        <string>extern</string>
+        <string>float</string>
+        <string>for</string>
+        <string>goto</string>
+        <string>if</string>
+        <string>int</string>
+        <string>long</string>
+        <string>pascal</string>
+        <string>register</string>
+        <string>return</string>
+        <string>short</string>
+        <string>signed</string>
+        <string>sizeof</string>
+        <string>static</string>
+        <string>struct</string>
+        <string>switch</string>
+        <string>typedef</string>
+        <string>union</string>
+        <string>unsigned</string>
+        <string>void</string>
+        <string>volatile</string>
+        <string>while</string>
+    </array>
+
+    <key>BBLMLanguageCode</key>
+    <string>TinyOS</string>
+    <key>BBLMLanguageDisplayName</key>
+    <string>TinyOS</string>
+    <key>BBLMScansFunctions</key>
+    <true/>
+    <key>BBLMSuffixMap</key>
+    <array>
+        <dict>
+            <key>BBLMLanguageSuffix</key>
+            <string>.nc</string>
+        </dict>
+    </array>
+    <key>Language Features</key>
+    <dict>
+        <key>Close Block Comments</key>
+        <string>*/</string>
+        <key>Close Parameter Lists</key>
+        <string>)</string>
+        <key>Close Statement Blocks</key>
+        <string>}</string>
+        <key>Close Strings 1</key>
+        <string>"</string>
+        <key>Close Strings 2</key>
+        <string>'</string>
+        <key>End-of-line Ends Strings 1</key>
+        <false/>
+        <key>End-of-line Ends Strings 2</key>
+        <false/>
+        <key>Escape Char in Strings 1</key>
+        <string>\</string>
+        <key>Escape Char in Strings 2</key>
+        <string>\</string>
+        <key>Identifier and Keyword Characters</key>
+        <string>123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz.</string>
+        <key>Open Block Comments</key>
+        <string>/*</string>
+        <key>Open Line Comments</key>
+        <string>//</string>
+        <key>Open Parameter Lists</key>
+        <string>(</string>
+        <key>Open Statement Blocks</key>
+        <string>{</string>
+        <key>Open Strings 1</key>
+        <string>"</string>
+        <key>Open Strings 2</key>
+        <string>'</string>
+        <key>Prefix for Functions</key>
+        <string></string>
+        <key>Prefix for Procedures</key>
+        <string></string>
+        <key>Terminator for Prototypes 1</key>
+        <string></string>
+        <key>Terminator for Prototypes 2</key>
+        <string></string>
+    </dict>
+</dict>
+</plist>
